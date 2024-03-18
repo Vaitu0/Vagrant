@@ -18,7 +18,6 @@ Vagrant.configure("2") do |config|
 
   if VAGRANT_COMMAND == "ssh"
     config.ssh.username = 'panda'
-    config.ssh.password = 'panda'
   end
 end
 
