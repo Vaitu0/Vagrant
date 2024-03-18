@@ -8,6 +8,8 @@
       - vagrant
     docker_daemon_options:
       insecure-registries : ["192.168.44.44:8082"]
+  roles:
+      - geerlingguy.docker
   pre_tasks:
     - name: Install packages
       package:
